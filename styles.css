@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+/* as well as lines above this styles will set 
+default settings for the project moving onwards, 
+make cozy background color */
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+/* calculator container set up sizes */
+.container {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* make the buttons appears in line in flexbox 
+without default gap between them */
+.all-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* button styles set up their width and height in there */
+button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.all-buttons > button:hover {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+/* Make AC and = buttons looks two times bigger */
+.span-two {
+    width: 200px;
+    height: 100px;
+}
+
+/* align items vertically RH side using flexbox, 
+very easy to do with it */
+.output {
+    height: 125px;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    /* Allow us to wrap our numbers if they will be long */
+    word-wrap: break-word;
+    /* we want to be able to break all words */
+    word-break: break-all;
+}
+
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: white;
+    font-size: 2.5rem;
+}
