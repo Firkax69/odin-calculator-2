@@ -4,9 +4,9 @@ An online calculator with basic arithmetic operations built using HTML5, CSS3 an
 
 ## Features
 
-All basic operations are supported (divide, multiple, add, subtract).<br/>
-Only mouse input supported.<br/>
-Comes with options to clear/delete a single input OR clear the whole display.<br/>
+1. All basic operations are supported (divide, multiple, add, subtract).<br/>
+2. Only mouse input supported.<br/>
+3. Comes with options to clear/delete a single input OR clear the whole display.<br/>
 
 ## Acknowledgement
 
