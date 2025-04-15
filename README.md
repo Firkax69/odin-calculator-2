@@ -4,7 +4,7 @@ An online calculator with basic arithmetic operations built using HTML5, CSS3 an
 <br/>
 👉For starting your own calculations [visit the site](https://firkax69.github.io/odin-calculator-2/)
 
-## Features
+## Features 
 
 1. All basic operations are supported (divide, multiple, add, subtract).<br/>
 2. Only mouse input supported.<br/>
