@@ -11,5 +11,5 @@ An online calculator with basic arithmetic operations built using HTML5, CSS3 an
 3. Comes with options to clear/delete a single input OR clear the whole display.<br/>
 
 ## Acknowledgement
-
+ 
 Project inspiration from The Odin Project.
